@@ -91,7 +91,7 @@ export default class App extends Component {
           Click me!
         </Button>
         <Typography className={classes.intro}>
-          To get started, edit <code>src/App.js</code> and save to reload.
+          If you can't tell how to get started from all the breadcrumbs, IDK what to tell you.
         </Typography>
       </div>
     )
