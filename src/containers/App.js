@@ -54,7 +54,7 @@ const styles = theme => ({
 })
 
 @withStyles(styles)
-@withTheme
+@withTheme()
 @withRouter
 @connect(mapStateToProps, mapDispatchToProps)
 export default class App extends Component {
