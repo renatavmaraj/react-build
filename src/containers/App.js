@@ -75,7 +75,7 @@ export default class App extends Component {
           onRequestClose={this.props.hideDialog}
         >
           <DialogTitle>
-            <Typography type='display2'>Dialog!</Typography>
+            Dialog!
           </DialogTitle>
         </Dialog>
         <div className={classes.header}>
