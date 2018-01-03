@@ -72,7 +72,7 @@ export default class App extends Component {
       <div className={classes.app}>
         <Dialog
           open={this.props.isDialogOpen}
-          onRequestClose={this.props.hideDialog}
+          onClose={this.props.hideDialog}
         >
           <DialogTitle>
             Dialog!
