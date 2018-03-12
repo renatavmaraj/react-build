@@ -1,8 +1,13 @@
-import { combineReducers } from 'redux'
-import { routerReducer } from 'react-router-redux'
-import app from './reducers/app'
+// @flow
+import { combineReducers } from 'redux';
+import { routerReducer } from 'react-router-redux';
+import app from './reducers/app';
 
-export default combineReducers({
+const reducers = {
   routing: routerReducer,
   app
-})
+};
+
+export type Reducers = typeof reducers;
+
+export default combineReducers(reducers);

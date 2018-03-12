@@ -1,11 +1,12 @@
 [ignore]
-
-[include]
+.*/build/.*
+.*/tests/.*
+.*/__tests__/.*
 
 [libs]
-
-[lints]
+flow-typed
 
 [options]
-
-[strict]
+emoji=true
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=src

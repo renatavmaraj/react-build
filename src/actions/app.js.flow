@@ -1,0 +1,9 @@
+export type ShowDialog = {
+  type: 'app/DIALOG_SHOW'
+};
+
+export type HideDialog = {
+  type: 'app/DIALOG_HIDE'
+};
+
+export type AppAction = ShowDialog | HideDialog;
